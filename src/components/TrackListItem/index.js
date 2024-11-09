@@ -14,7 +14,7 @@ const TrackListItem = props => {
         <img src={imageUrl} alt="track" className="li-img" />
         <div className="name-container">
           <p className='name'>{name}</p>
-          <p>{genre}</p>
+          <p className='genre'>{genre}</p>
         </div>
       </div>
       <div className="second">
