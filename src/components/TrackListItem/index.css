@@ -1,0 +1,56 @@
+.list-item {
+  list-style-type: none;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.first {
+  display: flex;
+  flex-direction: row;
+}
+.li-img {
+  height: 6rem;
+  width: 9rem;
+  margin: 10px;
+}
+.name-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 10px;
+  color: #fff;
+}
+
+.name {
+  font-size: 20px;
+  margin-top: 0px;
+  color: #fff;
+}
+.name-container p {
+  font-size: 17px;
+  margin-top: 0px;
+  color: #3b82f6;
+}
+.second {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.duration {
+  color: #fff;
+  font-size: 17px;
+  margin-right: 27px;
+}
+.dlt-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.dlt-icon {
+  height: 1rem;
+  width: 1rem;
+  color: #fff;
+}
